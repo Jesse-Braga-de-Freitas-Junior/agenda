@@ -23,6 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_d_(ze0ia%w@$gsqv&6j78q4-2k5#&5qbal=&x9)b-6kdxra)-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+#DEBUG = False - usado para usuario final linha de falha mais amigavel
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -104,15 +105,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Recife'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
